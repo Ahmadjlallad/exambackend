@@ -1,0 +1,15 @@
+GET http://localhost:3001/fruit
+###
+GET http://localhost:3001/userFruit?email=adfadsf
+###
+POST http://localhost:3001/userFruit
+Content-Type: application/json
+
+{
+   
+      "name": "Apple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "price": 35,
+    "email": "ahmad"
+    
+}
